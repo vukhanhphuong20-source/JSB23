@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        * {
+            margin: 0px;
+            box-sizing: border-box;
+        }
+
+        body {
+            padding: 10px;
+        }
+        .box1 {
+            background-color: bisque;
+            width: 150px;
+            height: 150px;
+            border: 10px solid red;
+            margin: 10px;
+        }
+        /* Thuộc tính display: flex => quản lý nội dung bên các thẻ con trong thẻ cha 
+        - Khi thẻ cha gọi thuộc tính display: flex => các item con trong thẻ chã sẽ nằm ngang hàng với nhau
+        
+        + justify-content: chỉnh các thẻ con theo trục ngang của khối cha
+
+        justify-content: flex-start => Nằm ở đầu trục ngang
+        justify-content: flex-end => Cuối trục ngang
+        justify-content: center => Các ô nằm ở giữa theo trục ngang
+        justify-content: space-between => Tạo khoảng giữa các thẻ con với nhau
+        jusitfy-content: space-around => Tạo khoảng trống xung quanh 1 thẻ
+        jusitfy-content: space-evenly => Tạo khoảng trống đều nhau giữa các thẻ
+
+        + align-item: chỉnh các thẻ con theo trục dọc của khối cha
+        align-items: flex-start
+        align-items: flex-end
+        align-items: center
+        */
+
+        .container {
+            width: 100%;
+            height: 900px;
+            border: 10px dashed black;
+            display: flex;
+            justify-content: center;
+            align-items: flex-end;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="box1"></div>
+        <div class="box1"></div>
+        <div class="box1"></div>
+        <div class="box1"></div>
+    </div>
+</body>
+</html>
+

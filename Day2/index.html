@@ -1,0 +1,79 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+        .box1 {
+            background-color: cadetblue;
+            color: blanchedalmond;
+            width: 200px;
+
+            border-width: 10px;
+            border-color: black;
+            border-style: solid;
+            border-radius: 20px;
+
+            padding-top: 10px;
+            padding-left: 20px;
+            padding-bottom: 30px;
+            padding-right: 40px;
+            /* border: đường viền
+            - border width: đồ dày của viền
+            - border-style: kiểu viền
+            - border-color: màu của đường viền
+            - border: width style color ( VD: 10px solid black )
+            - border-radius: độ cong đường viền
+            */
+
+            /* padding : Khoảng cách giữa nội dung và đường viền
+                padding-top, padding-bottom, padding-left, padding-right
+                padding : 10px 20px => top=bottom= 10px và left=right=20px
+                padding : 10px 30px 20px => top=10px và left=right=30px và bpttom 20px
+            */
+
+        }
+
+        .box2 {
+            background-color: #7fff00;
+            color: brown;
+            width: 300px;
+            
+        }
+        .box1-img {
+            width: 100%;
+            /* width: 100% => luôn bằng bề ngang width của khối cha */
+        }
+    </style>
+
+
+</head>
+
+<body>
+    <!-- divide -->
+    <!-- Format code:  -->
+    <div class="box1">
+
+        <h1> Name: sđsffs</h1>
+        <p>Age: 30</p>
+        <a href="https://github.com/">
+            Trang ca nhan cua toi: https://github.com/
+        <img class="box1-img" src="https://i.pinimg.com/736x/0a/bb/df/0abbdf518388205c108df33d57c75dd8.jpg" alt="">
+        </a>
+    </div>
+
+    <hr>
+
+    <div class="box2">
+        <h1>Name: sdsf</h1>
+        <p>Age: 30</p>
+        <a href="https://github.com/">
+            Trang ca nhan cua toi: https://github.com/
+        </a>
+    </div>
+    <!-- . Để nó ngang ok?? -->
+</body>
+
+</html>

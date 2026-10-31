@@ -1,0 +1,38 @@
+
+    .btn-add {
+        width:400px;
+        height: 60px;
+        background-color: #080053c4;
+    }
+
+    .btn-add .item {
+
+        width: 23%;
+            padding: 10px 0;
+            background-color: #080053c4;
+            color: #ffffff;
+            border: none;
+            border-radius: 25px;
+            border-bottom:#ffffff;
+            font-size: 18px;
+            font-weight: bold;
+            cursor: pointer;
+            display: inline-block;
+
+    }
+    
+     .btn-add .item:hover {
+
+        width: 23%;
+            padding: 10px 0;
+            background-color: #080053c4;
+            color: #ffffff;
+            border: none;
+            border-radius: 25px;
+            font-size: 18px;
+            font-weight: bold;
+            cursor: pointer;
+            display: inline-block;
+
+    }
+    

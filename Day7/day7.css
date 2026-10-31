@@ -1,0 +1,127 @@
+.title {
+    background-color: rgb(188, 207, 207);
+    position: relative;
+
+    bottom: 80px;
+    /* Cách vị trí gốc là 80px */
+    left: 50px
+        /* position: static ( Giá trị mặc định )
+
+    position: relative --> dùng được các thuộc tính top, left, right và bottom
+    => Thẻ có thể di chuyển 4 hướng top , left, right, bottom và không làm ảnh hưởng đến các thẻ xung quanh
+    Hãy hình dụng việc sử dụng position relative như thể đang thả diều:
+        - Thẻ gốc ban đầu luôn ở vị trí mặc định của nó trong trang ( người thả diều)
+        - Nội dung có thể di chuyển mà không ảnh hưởng đến các thẻ xung quanh ( Diều )
+
+    position: absolute
+        -Thẻ đó sẽ được nhắc ra khỏi dòng chảy mặc định của trang
+            => Ảnh hưởng đến vị trí xung quanh ( Ví dụ trò rút gỗ )
+        - Hoạt động trong không gian giới hạn của thẻ cha gần  có position là absolute/relative
+    position: fixed;
+        - Luôn cho thẻ cố định và di chuyển theo khung hình
+    */
+
+}
+
+.container {
+    width: 600px;
+    height: 400px;
+    border: 5px solid red;
+    position: relative;
+
+
+
+}
+
+.box1 {
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    opacity: 0.5;
+    background-color: aqua;
+    top: 0;
+    left: 0;
+
+}
+
+.box2 {
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    opacity: 0.5;
+    background-color: aqua;
+    top: 0;
+    right: 0;
+
+}
+
+.box3 {
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    opacity: 0.5;
+    background-color: aqua;
+    bottom: 0;
+    left: 0;
+
+}
+
+.box4 {
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    opacity: 0.5;
+    background-color: aqua;
+    bottom: 0;
+    right: 0;
+
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+.widget {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    gap: 15px
+}
+
+.widget-item {
+    position: relative;
+    display: flex;
+    align-items:center;
+    justify-content: space-between;
+
+    
+
+}
+.center-btn {
+    align-items: column-reverse;
+    margin-top: 5px;
+
+
+}
+.label {
+    font-size: 14px;
+    color: #888;
+
+
+}
+
+.icon-btn {
+    width: 45px;
+    height: 45px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-size: 20px
+    cursor : pointer;
+}

@@ -1,0 +1,74 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+
+    <style>
+      input {
+        padding: 10px;
+      }
+
+      #myCheckBoxBtn:checked ~ .box {
+        background-color: black;
+      }
+
+      .box {
+        width: 100px;
+        height: 100px;
+        background-color: red;
+      }
+    </style>
+  </head>
+  <body>
+    <!-- Thẻ input: Nhập nội dung -->
+    <label for="inputText">asdasdads</label>
+    <br>
+    <input id="inputText" type="text" placeholder="Enter text" />
+    <br />
+
+    <input type="number" placeholder="Enter number" />
+    <br />
+    <input type="email" placeholder="Enter email" />
+    <br />
+    <input type="password" placeholder="Enter password" />
+
+    <br />
+    <input id="answer1" type="radio" name="Answer" value="A" />
+    <label for="answer1">A</label>
+
+    <input id="answer2" type="radio" name="Answer" value="B" />
+    <label for="answer2">B</label>
+
+    <input id="answer3" type="radio" name="Answer" value="C" />
+    <label for="answer3">C</label>
+
+    <input id="answer4" type="radio" name="Answer" value="D" />
+    <label for="answer4">D</label>
+
+    <textarea name="" id=""></textarea>
+
+    <br />
+    <br />
+    <br />
+    <br />
+    <input type="radio" id="html" name="fav_language" value="HTML" />
+    <label for="html">HTML</label><br />
+    <input type="radio" id="css" name="fav_language" value="CSS" />
+    <label for="css">CSS</label><br />
+    <input
+      type="radio"
+      id="javascript"
+      name="fav_language"
+      value="JavaScript"
+    />
+    <label for="javascript">JavaScript</label>
+
+    <br>
+
+    <input type="checkbox" id="myCheckBoxBtn">
+    <div class="box"></div>
+    <label for="asd">Click me</label>
+  </body>
+</html>

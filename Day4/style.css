@@ -1,0 +1,61 @@
+.container {
+    height: auto;
+    width: auto;
+    background-color: aqua;
+    display: flex;
+    flex-direction: collumn;
+    /*justify-content: space-between;
+    align-items: center ;
+    gap: 20px 30px;
+    flex-wrap: wrap;*/
+
+
+    /* flex : để ngang
+    flex-direction : row & collumn
+    row & collumn - reverse
+    justify-content: center - căn giữa- trục chính
+    justify-content: flex-start - về mặc định
+    justify-content: flex-end - ngược lại start
+    justify-content: space-between - cách, dính vào 2 lề
+    justify-content: space-around - cách, chia đều, nếu nối thành vòng tròn khoảng cách A-B, B-C và C-A sẽ bằng nhau
+    justify-content: space-evenly -dính cont
+    align-items: center ; - căn giữa- trục phụ
+    align-items: flex-start ;
+    align-items: flex-end ;
+    align-items: stretch;
+    flex-wrap: wrap-reverse;
+    */
+
+}
+
+.box {
+    height: 100px;
+    /*width: 100px;*/
+
+    background-color: blueviolet;
+    color: blanchedalmond;
+
+
+}
+
+.box1 {
+    flex: auto;
+    background-color: blue;
+
+}
+.box2 {
+    flex:2;
+    background-color:chartreuse;
+    /*order: 1;*/
+    align-self: flex-start ;
+
+
+
+}
+
+.box3{
+    flex:1;
+    background-color:crimson;
+
+
+}

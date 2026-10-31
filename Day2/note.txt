@@ -1,0 +1,4 @@
+3 cách để thêm style vào trang web
+
+- Inline style : css trực tiếp vào bên trong thẻ:
+VD: <h1> style="background-color: red; color: black"> Thoi tiet hom nay that dep </h1>
